@@ -11,28 +11,21 @@
             },
         'in_params':
             {
-                'speed':
+                'dataframe':
                     {
                         'gui_name':
                             {
-                                'rus': 'Скорость чтения/записи в MB/s',
-                            },
-                    },
-                'iops':
-                    {
-                        'gui_name':
-                            {
-                                'rus': 'Количество операций ввода-вывода в секунду',
+                                'rus': 'Результат выполнения SQL-запроса - датасет в формате Pandas, содержащий значения iops_read, iops_write, speed_read, speed_write',
                             },
                     }
             },
         'out_params':
             {
-                'block_size':
+                'message_text':
                     {
                         'gui_name':
                             {
-                                'rus': 'Размер блока'
+                                'rus': 'Текст уведомления'
                             },
                     },
             }
