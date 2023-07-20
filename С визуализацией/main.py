@@ -9,7 +9,7 @@ def get_block_size(
     :packages:
     import math
     import pandas as pd
-    :param_block pd.DataFrame dataset: датасет, содержащий данные о скорости и количествеопераций чтения/записи
+    :param_block pd.DataFrame dataset DataSet: датасет, содержащий данные о скорости и количествеопераций чтения/записи
     :returns: message_text, dataset
     :rtype: str, pd.DataFrame
     :semrtype: MSG, DataSet
@@ -20,11 +20,11 @@ def get_block_size(
     read_iops = float(dataset['read_iops'].iloc[0])
     write_iops = float(dataset['write_iops'].iloc[0])
 
-    dataframe['block_size_read']: int = math.ceil((read_speed / read_iops))
-    dataframe['block_size_write']: int = math.ceil((write_speed / write_iops))
+    dataset['block_size_read']: int = math.ceil((read_speed / read_iops))
+    dataset['block_size_write']: int = math.ceil((write_speed / write_iops))
 
     message_text: str = 'block_size_read = ' + str(dataset['block_size_read'].iloc[0])+ 'k\n' \
                         + 'block_size_write = ' + str(dataset['block_size_write'].iloc[0]) + 'k'
 
-    return message_text, dataframe
+    return message_text, dataset
 
