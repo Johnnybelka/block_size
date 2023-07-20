@@ -9,7 +9,7 @@ def get_block_size(
     :packages:
     import math
     import pandas as pd
-    :param_block pd.DataFrame dataset: датасет, содержащий данные о скорости и количествеопераций чтения/записи
+    :param_block pd.DataFrame dataset DataSet: датасет, содержащий данные о скорости и количествеопераций чтения/записи
     :returns: message_text
     :rtype: str
     :semrtype: MSG
