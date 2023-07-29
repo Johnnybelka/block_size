@@ -6,7 +6,7 @@ def get_block_size(
 
     :code_assign: users
     :code_type: Анализ данных
-    :imports: init_gui_dict
+    :imports: init_gui_dict, Window, Canvas, LinePlot
     :packages:
     import math
     import pandas as pd
