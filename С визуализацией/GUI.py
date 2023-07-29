@@ -35,13 +35,6 @@
                                 'rus': 'Датасет'
                             },
                     },
-                'gui_dict':
-                    {
-                        'gui_name':
-                            {
-                                'rus': 'График block_size_read'
-                            },
-                    }
             }
     }
 }
