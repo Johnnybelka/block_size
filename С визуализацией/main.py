@@ -55,4 +55,4 @@ def get_block_size(
                       ]
         ).to_dict())
 
-    return message_text, dataset, gui_dict
+    return message_text, dataset
