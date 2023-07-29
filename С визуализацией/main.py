@@ -5,7 +5,7 @@ def get_block_size(
     Определение размера блока
 
     :code_assign: users
-    :code_type: Анализ данных
+    :code_type: Пользовательские функции
     :imports: init_gui_dict, Window, Canvas, LinePlot
     :packages:
     import math
