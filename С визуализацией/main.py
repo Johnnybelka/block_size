@@ -11,9 +11,9 @@ def get_block_size(
     import math
     import pandas as pd
     :param_block pd.DataFrame dataset: датасет, содержащий данные о скорости и количествеопераций чтения/записи
-    :returns: message_text, dataset
+    :returns: message_text, dataset, gui_dict
     :rtype: str, pd.DataFrame
-    :semrtype: MSG, DataSet
+    :semrtype: MSG, DataSet, 
     """
 
     read_speed = float(dataset['read_speed'].iloc[0])
@@ -55,4 +55,4 @@ def get_block_size(
                       ]
         ).to_dict())
 
-    return message_text, dataset
+    return message_text, dataset, gui_dict
